@@ -2,7 +2,8 @@
   "name": "paper-toggle-button",
   "private": true,
   "dependencies": {
-    "polymer": "Polymer/polymer#master",
-    "paper-radio-button": "Polymer/paper-radio-button#master"
-  }
+    "polymer": "Polymer/polymer#0.2.2",
+    "paper-radio-button": "Polymer/paper-radio-button#0.2.2"
+  },
+  "version": "0.2.2"
 }
