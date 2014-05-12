@@ -2,8 +2,9 @@
   "name": "paper-toggle-button",
   "private": true,
   "dependencies": {
-    "core-layout": "Polymer/core-layout#master",
-    "font-roboto2": "Polymer/font-roboto2#master",
-    "paper-radio-button": "Polymer/paper-radio-button#master"
-  }
+    "core-layout": "Polymer/core-layout#0.2.4",
+    "font-roboto2": "Polymer/font-roboto2#0.2.4",
+    "paper-radio-button": "Polymer/paper-radio-button#0.2.4"
+  },
+  "version": "0.2.4"
 }
