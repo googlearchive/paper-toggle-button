@@ -150,6 +150,9 @@ To change the toggle bar and toggle button colors separately:
     },
 
     trackx: function(e) {
+      if (this.disabled) {
+        return;
+      }
       this._x = Math.min(this._w, 
           Math.max(0, this.checked ? this._w + e.dx : e.dx));
       this.$.toggleButton.classList.add('dragging');
@@ -158,6 +161,9 @@ To change the toggle bar and toggle button colors separately:
     },
 
     trackEnd: function() {
+      if (this.disabled) {
+        return;
+      }
       var s =  this.$.toggleButton.style;
       s.transform = s.webkitTransform = '';
       this.$.toggleButton.classList.remove('dragging');
